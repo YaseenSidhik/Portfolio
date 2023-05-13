@@ -36,7 +36,6 @@ header
 nav a
 {
     color: #fff;
-    text-decoration: none;
     padding: 0.9em 0;
     font-size: 1.1rem;
 }
@@ -64,6 +63,12 @@ li:not(:last-child)
 
 /* General styling */
 
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
 p
 {
     line-height: 1.5;
@@ -83,7 +88,7 @@ section
 }
 
 
-#home,.section-heading,.skill,label,header,#education,#projects
+#home,.section-heading,.skill,label,header,#education,#projects,footer
 {
     text-align: center;
 }
@@ -176,12 +181,23 @@ button
 
 .project a
 {
-    text-decoration: none;
     color: #fff;
     background-color: #000;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* footer */
+
+footer
+{
+    padding: 1em 2em;
+}
+
+footer a
+{
+    margin-left:0.3em ;
 }
 
 
